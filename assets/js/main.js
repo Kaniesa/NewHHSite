@@ -144,10 +144,9 @@
       //   e.preventDefault();
       //   this.nextElementSibling.classList.toggle('dropdown-active');
       // }
-      console.log('clicked');
       select('#navbar').classList.toggle('navbar-mobile');
-      this.classList.toggle('bi-list');
-      this.classList.toggle('bi-x');
+      select('.mobile-nav-toggle').classList.toggle('bi-list');
+      select('.mobile-nav-toggle').classList.toggle('bi-x');
     },
     true
   );
