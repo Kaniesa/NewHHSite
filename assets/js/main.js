@@ -136,9 +136,24 @@
     },
     true
   );
+  on(
+    'click',
+    '.navbar li:not([class^="dropdown"]) > a',
+    function (e) {
+      // if (select('#navbar').classList.contains('navbar-mobile')) {
+      //   e.preventDefault();
+      //   this.nextElementSibling.classList.toggle('dropdown-active');
+      // }
+      console.log('clicked');
+      select('#navbar').classList.toggle('navbar-mobile');
+      this.classList.toggle('bi-list');
+      this.classList.toggle('bi-x');
+    },
+    true
+  );
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with offset on links with a class name .scrollto
    */
   on(
     'click',
@@ -161,7 +176,7 @@
   );
 
   /**
-   * Scroll with ofset on page load with hash links in the url
+   * Scroll with offset on page load with hash links in the url
    */
   window.addEventListener('load', () => {
     if (window.location.hash) {
