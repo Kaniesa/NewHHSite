@@ -162,6 +162,8 @@ h6 {
 }
 #header.header-scrolled {
   background: #2b6777;
+  filter: brightness(80%);
+  opacity: 0.9;
   height: 60px;
 }
 #header .logo h1 {
