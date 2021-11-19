@@ -1090,7 +1090,7 @@ section {
   background-size: cover;
   position: relative;
   margin-bottom: 2%;
-  filter: brightness(70%);
+  filter: brightness(100%);
 }
 .mission {
   padding: 80px 0;
@@ -1123,7 +1123,7 @@ section {
 .testimonials .testimonial-item,
 .mission {
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
@@ -1135,7 +1135,7 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: #fff !important;
 }
 .testimonials .testimonial-item h4 {
   font-size: 14px;

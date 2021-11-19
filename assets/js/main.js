@@ -143,7 +143,7 @@
       // if (select('#navbar').classList.contains('navbar-mobile')) {
       //   e.preventDefault();
       //   this.nextElementSibling.classList.toggle('dropdown-active');
-      // }
+      // }x
       select('#navbar').classList.toggle('navbar-mobile');
       select('.mobile-nav-toggle').classList.toggle('bi-list');
       select('.mobile-nav-toggle').classList.toggle('bi-x');
