@@ -174,8 +174,8 @@ h6 {
   font-weight: 700;
 }
 #header .logo h1#coc {
-  font-size: 10px;
-  margin: 0;
+  font-size: 20px;
+  margin: 10px 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
@@ -432,10 +432,12 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: rgba(255, 255, 255, 0.8);
+  text-align: center;
 }
 #hero h1 span {
   color: #fff;
   border-bottom: 4px solid #eacc0d;
+  text-align: center;
 }
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
