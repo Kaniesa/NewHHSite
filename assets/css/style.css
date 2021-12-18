@@ -173,6 +173,13 @@ h6 {
   line-height: 1;
   font-weight: 700;
 }
+#header .logo h1#coc {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+}
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: #fff;
