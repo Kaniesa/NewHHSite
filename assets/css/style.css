@@ -1667,6 +1667,10 @@ h4.vol {
   text-align: center;
   padding: 30px 20px;
 }
+#footer .footer-top .footer-info a {
+  color: #fff;
+}
+
 #footer .footer-top .footer-info h3 {
   font-size: 24px;
   margin: 0 0 20px 0;
