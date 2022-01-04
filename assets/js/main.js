@@ -118,9 +118,9 @@
    * Mobile nav toggle
    */
   on('click', '.mobile-nav-toggle', function (e) {
-    // select('#navbar').classList.toggle('navbar-mobile');
-    // this.classList.toggle('bi-list');
-    // this.classList.toggle('bi-x');
+    select('#navbar').classList.toggle('navbar-mobile');
+    this.classList.toggle('bi-list');
+    this.classList.toggle('bi-x');
   });
 
   /**
@@ -137,17 +137,18 @@
     },
     true
   );
+
   on(
     'click',
     '.navbar li:not([class^="dropdown"]) > a',
     function (e) {
-      // if (select('#navbar').classList.contains('navbar-mobile')) {
-      //   e.preventDefault();
-      //   this.nextElementSibling.classList.toggle('dropdown-active');
-      // }x
-      select('#navbar').classList.toggle('navbar-mobile');
-      select('.mobile-nav-toggle').classList.toggle('bi-list');
-      select('.mobile-nav-toggle').classList.toggle('bi-x');
+      if (select('#navbar').classList.contains('navbar-mobile')) {
+        // e.preventDefault();
+        // this.nextElementSibling.classList.toggle('dropdown-active');
+        select('#navbar').classList.toggle('navbar-mobile');
+        select('.mobile-nav-toggle').classList.toggle('bi-list');
+        select('.mobile-nav-toggle').classList.toggle('bi-x');
+      }
     },
     true
   );
