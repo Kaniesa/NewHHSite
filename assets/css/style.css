@@ -1675,6 +1675,8 @@ h4.vol {
   border-top: 4px solid #52ab98;
   text-align: center;
   padding: 30px 20px;
+  width: 70%;
+  min-width: 400px;
 }
 #footer .footer-top .footer-info a {
   color: #fff;
