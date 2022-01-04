@@ -2,6 +2,7 @@
  * Template Name: Bootslander - v4.6.0
  * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
  * Author: BootstrapMade.com
+ * Modified: Andrew Yang
  * License: https://bootstrapmade.com/license/
  */
 (function () {
@@ -117,9 +118,9 @@
    * Mobile nav toggle
    */
   on('click', '.mobile-nav-toggle', function (e) {
-    select('#navbar').classList.toggle('navbar-mobile');
-    this.classList.toggle('bi-list');
-    this.classList.toggle('bi-x');
+    // select('#navbar').classList.toggle('navbar-mobile');
+    // this.classList.toggle('bi-list');
+    // this.classList.toggle('bi-x');
   });
 
   /**
@@ -206,6 +207,28 @@
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+  /**
+   * Events slider
+   */
+  new Swiper('.events-slider', {
     speed: 600,
     loop: true,
     autoplay: {

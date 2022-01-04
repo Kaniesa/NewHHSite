@@ -1103,6 +1103,15 @@ section {
   margin-bottom: 2%;
   filter: brightness(100%);
 }
+
+.testimonials.events h3 {
+  color: white;
+  border-radius: 5px;
+}
+.testimonials.events h3 a {
+  color: white;
+}
+
 .mission {
   padding: 80px 0;
   background: url('../img/ct') no-repeat;
