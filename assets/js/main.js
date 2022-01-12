@@ -211,7 +211,7 @@
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      // delay: 5000,
       disableOnInteraction: false,
     },
     slidesPerView: 'auto',
@@ -230,10 +230,10 @@
    * Events slider
    */
   new Swiper('.events-slider', {
-    speed: 600,
+    speed: 1000,
     loop: true,
     autoplay: {
-      delay: 5000,
+      // delay: 5000,
       disableOnInteraction: false,
     },
     slidesPerView: 'auto',

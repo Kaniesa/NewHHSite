@@ -446,6 +446,7 @@ h6 {
 }
 #intro {
   font-style: normal;
+  text-align: left;
 }
 #hl {
   background-color: #bfbf12;
