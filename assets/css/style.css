@@ -1797,3 +1797,9 @@ h4.vol {
     margin: -20px 0 30px 0;
   }
 }
+
+#google_translate_element {
+  position: sticky;
+  bottom: 10px;
+  margin-left: 10px;
+}
