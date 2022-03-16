@@ -157,7 +157,7 @@
               <h3>About Us</h3>
               <p>HomeworkHub is a youth-led, non-profit organization dedicated to providing free, accessible, and
                 quality educational resources to all students in need in order to guide them to academic success.
-                Over the past months, the HomeworkHub community has grown to over <strong>1000</strong> members across
+                Over the past months, the HomeworkHub community has grown to over <strong>1500</strong> members across
                 the world including
                 tutors and students from Canada, the US, China, Kenya, India, Philippines, and Indonesia!
               </p>
@@ -549,7 +549,7 @@
                 <li>Committed and dedicated to the task </li>
                 <li>Comfortable with working with kids and pre-teens </li>
                 <li>Maintaining good academic grades and communication skills! </li>
-                <li>Vulnerable sector police checks required for tutors 18 and upu</li>
+                <li>Vulnerable sector police checks required for tutors 18 and up</li>
               </ul>
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSecAWrA9XmRFuKeeElm8SS5E09MsU5nLyrujhs0FRg2w1Glnw/viewform"><button
@@ -1326,41 +1326,7 @@
       class="bi bi-arrow-up-short"></i></a>
   <div id="preloader"></div>
 
-  <script type="text/javascript">
-
-    let lang = window.navigator.languages ? window.navigator.languages[0] : null;
-    lang = lang || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage;
-
-    let shortLang = lang;
-    if (shortLang.indexOf('-') !== -1)
-      shortLang = shortLang.split('-')[0];
-    console.log(shortLang);
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'en',
-        layout: google.translate.TranslateElement.InlineLayout,
-      }, 'google_translate_element');
-      if (shortLang == "en") return;
-      setTimeout(() => {
-        changeLang();
-      }, 1000);
-    }
-    function changeLang() {
-      let ele = document.querySelector("#google_translate_element select");
-      switch (shortLang) {
-        case "ua":
-          ele.selectedIndex = 99;
-          break;
-        case "fr":
-          ele.selectedIndex = 26;
-          break;
-        default:
-          ele.selectedIndex = 21;
-          break;
-      }
-      ele.dispatchEvent(new Event("change"));
-    }
-  </script>
+  <script type="text/javascript" src="./assets/js/translate.js"></script>
 
   <script type="text/javascript"
     src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
