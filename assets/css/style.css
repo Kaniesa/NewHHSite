@@ -1184,6 +1184,9 @@ section {
   margin: 0 auto 15px auto;
   color: #ffff;
 }
+.testimonials .testimonial-item p.non-ti {
+  font-style: normal !important;
+}
 .testimonials .swiper-pagination {
   margin-top: 20px;
   position: relative;
