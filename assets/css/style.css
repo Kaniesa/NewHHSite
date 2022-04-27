@@ -1541,6 +1541,8 @@ h4.vol {
 .contact .info {
   width: 100%;
   background: #fff;
+  border: 1px solid black;
+  margin-bottom: 100px;
 }
 .contact .info i {
   font-size: 20px;
@@ -1805,9 +1807,9 @@ h4.vol {
 
 #google_translate_element {
   position: sticky;
-  bottom: 10px;
+  bottom: 20px;
   margin-left: 10px;
-  margin-top: -100px;
+  margin-top: 100px;
   /* border: 1px solid black; */
   width: max-content;
 }
