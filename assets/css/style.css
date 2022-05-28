@@ -691,7 +691,9 @@ section {
 .section-title {
   padding-bottom: 40px;
 }
-.section-title h2 {
+
+/* OLD STYLE, overlapped on iPhone SE*/
+/* .section-title h2 {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
@@ -701,6 +703,18 @@ section {
   text-transform: uppercase;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
+} */
+.section-title h2 {
+  font-size: 70%;
+  font-weight: 500;
+  padding: 0;
+  line-height: 10px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  /* white-space: nowrap; */
 }
 .section-title h2::after {
   content: '';
