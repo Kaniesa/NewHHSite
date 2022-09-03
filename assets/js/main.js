@@ -259,4 +259,35 @@
       mirror: false,
     });
   });
+
+  // Biography
+  function getAllElementsWithAttribute(attribute) {
+    var matchingElements = [];
+    var allElements = document.getElementsByTagName('*');
+    for (var i = 0, n = allElements.length; i < n; i++) {
+      if (allElements[i].getAttribute(attribute) !== null) {
+        // Element exists with attribute. Add to array.
+        matchingElements.push(allElements[i]);
+      }
+    }
+    return matchingElements;
+  }
+  const teamPictures = document.querySelectorAll('[data-bioName]');
+  (async () => {
+    const biography = await fetch('./assets/data/bio.json').then((res) =>
+      res.json()
+    );
+    teamPictures.forEach((picture) => {
+      picture.style.cursor = 'pointer';
+      picture.addEventListener('click', () => {
+        const name = picture.getAttribute('data-bioName');
+        const bio = biography.find((bio) => bio.name === name);
+        Swal.fire({
+          title: bio.title,
+          text: bio.bio,
+          confirmButtonText: 'Nice',
+        });
+      });
+    });
+  })();
 })();
