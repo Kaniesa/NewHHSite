@@ -442,6 +442,9 @@ h6 {
   text-align: center;
 }
 #hero h2 {
+  text-align: center;
+}
+#hero h2 {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 40px;
   font-size: 24px;
