@@ -75,6 +75,12 @@ h6 {
   background-color: #eacc0d;
   color: white;
 }
+
+h2#donations {
+  color: #1acc8d !important;
+  font-size: 16px;
+}
+
 .reg:hover {
   background: #e87e12;
 }
@@ -1109,6 +1115,109 @@ section {
 #compass {
   width: 20%;
 }
+
+/*--------------------------------------------------------------
+# News
+--------------------------------------------------------------*/
+.news {
+  padding: 80px 0;
+  /*  background: url("https://upload.wikimedia.org/wikipedia/commons/f/fb/Light_blue.png") no-repeat;
+*/
+  background-position: center center;
+  background-color: #fff;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 2%;
+  filter: brightness(100%);
+}
+
+.news .section-title h2 {
+  font-size: 16px;
+  color: #1acc8d;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.news .testimonials-carousel,
+.mission,
+.news .testimonials-slider {
+  overflow: hidden;
+}
+.news .testimonial-item,
+.mission {
+  text-align: center;
+  color: #ffffff;
+}
+.news .testimonial-item .testimonial-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
+}
+.news .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #fff !important;
+}
+.news .testimonial-item h4 {
+  font-size: 14px;
+  color: #fff;
+  margin: 0 0 15px 0;
+}
+.news .testimonial-item .quote-icon-left,
+.news .testimonial-item .quote-icon-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 26px;
+}
+.news .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+.news .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+.news .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: #ffff;
+}
+.news .testimonial-item p.non-ti {
+  font-style: normal !important;
+}
+.news .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.news .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.news .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #1acc8d;
+}
+@media (min-width: 1024px) {
+  .testimonials,
+  .mission {
+    background-attachment: fixed;
+  }
+}
+@media (min-width: 992px) {
+  .testimonials .testimonial-item p,
+  .mission {
+    width: 80%;
+  }
+  .counts .count-box {
+    margin-left: 55%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Mission
 --------------------------------------------------------------*/
