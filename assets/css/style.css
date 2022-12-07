@@ -725,6 +725,34 @@ section {
   font-family: 'Poppins', sans-serif;
   /* white-space: nowrap; */
 }
+
+/* IPHONE SE STYLING */
+@media screen and (max-width: 400px) {
+  .intro-to-finance{
+    width: 85%;
+  }
+
+  #volunteer-fair img{
+    width: 85%;
+  }
+
+  #compass-ride img{
+    width: 85%;
+  }
+
+  #intro-to-finaince img{
+    width: 85%;
+  }
+
+  #compass-codes img{
+    width: 85%;
+  }
+}
+
+#compass-codes img{
+  max-height: 300px;
+}
+
 .section-title h2::after {
   content: '';
   width: 120px;
