@@ -1387,6 +1387,9 @@ section {
   border-radius: 4px;
   overflow: hidden;
 }
+.tmpSize {
+  height: 500px !important;
+}
 .team .member img {
   transition: all ease-in-out 0.4s;
 }
