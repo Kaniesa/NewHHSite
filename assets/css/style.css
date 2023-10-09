@@ -1387,6 +1387,9 @@ section {
   border-radius: 4px;
   overflow: hidden;
 }
+.tmpSize {
+  height: 500px !important;
+}
 .team .member img {
   transition: all ease-in-out 0.4s;
 }
@@ -1438,6 +1441,76 @@ section {
   color: #2b6777;
 }
 .team .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+/*--------------------------------------------------------------
+# Board of Directors
+--------------------------------------------------------------*/
+.board {
+  background: #fff;
+}
+.board .member {
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+.board .member .pic {
+  border-radius: 4px;
+  overflow: hidden;
+}
+.board .member img {
+  transition: all ease-in-out 0.4s;
+}
+.board .member:hover img {
+  transform: scale(1.1);
+}
+.board .member .member-info {
+  position: absolute;
+  bottom: -80px;
+  left: 0px;
+  right: 0px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 0;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.board .member h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #01036f;
+  position: relative;
+  padding-bottom: 10px;
+}
+.board .member h4::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #0d12fc;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+.board .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #01036f;
+}
+.board .member .social {
+  margin-top: 10px;
+}
+.board .member .social a {
+  transition: color 0.3s;
+  color: #2b6777;
+}
+.board .member .social a:hover {
+  color: #2b6777;
+}
+.board .member .social i {
   font-size: 16px;
   margin: 0 2px;
 }
