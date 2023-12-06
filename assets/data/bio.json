@@ -42,7 +42,7 @@
   {
     "name": "Kaniesa",
     "title": "Volunteers Manager",
-    "bio": "Hello! My name is Kaniesa and I'm currently a student at Laurel Heights Secondary School. I'm really passionate about anything STEM-related. I'm interested in pursuing engineering, but in my spare time, I love reading and playing badminton. Education is an important part of my life, and being a part of the HomeworkHub team allows me to surround myself with fellow students who are also passionate about improving the learning in our communities. It's fulfilling knowing that with every tutor applicant recruited, a difference and positive change is being made!"
+    "bio": "Hello! My name is Kaniesa and I'm currently a student at Laurel Heights Secondary School. I'm really passionate about anything STEM-related. I'm interested in pursuing engineering, but in my spare time, I love reading and playing badminton. Education is an important part of my life, and being a part of the HomeworkHub team allows me to surround myself with fellow students who are also passionate about improving the learning in our communities."
   },
   {
     "name": "Diya",
@@ -103,5 +103,36 @@
     "name": "Jimmy",
     "title": "Pairing and Tech Manager",
     "bio": "Hi, I’m Jimmy, and I’m part of the pairing and tech team! I’m a grade 10 student at AY Jackson Secondary School, and my favourite subjects are math, computer science/engineering, and physics/chemistry. In my spare time, I like to listen to music, play ping-pong, practice boxing and work on coding projects. I joined HomeworkHub because I want to help students in need receive the proper education that may not be readily available where they live. I’m super proud of what HomeworkHub has achieved so far, and I’m excited to be a part of this team!"
+  },
+  {
+    "name": "Priyanshi",
+    "title": "QA Director",
+    "bio": "Hi, I'm Priyanshi, a Grade 10 student at Laurel Heights! I love reading, baking, and swimming! At HomeworkHub, I’m the QA Director. HomeworkHub's commitment to providing free and amazing educational services to those in need align perfectly with my goals and interests. I can’t wait to see what this year brings!"
+  },
+  {
+    "name": "Ayushi",
+    "title": "QA Team Member",
+    "bio": "Hello! My name is Ayushi Pandit and I am so excited to be part of the QA team at HomeworkHub! I am a space nerd, book lover and an INFJ, and that pretty much covers everything you need to know about me! "
+  },
+  {
+    "name": "Camille",
+    "title": "QA Team Member",
+    "bio": "Hi! My name’s Camille :) I am in grade 12 and looking forward to another great school year with the HomeworkHub team! I love (almost) all things math related, music, and art!!!"
+  },
+  {
+    "name": "Lucy",
+    "title": "QA Team Member",
+    "bio": "Hello! I'm Lucy, a grade 11 student at Victoria Park CI :) A fun fact about me is that whether I have monolids or double eyelids depends on how much sleep I get. I'm super excited to join the HomeworkHub QA team!"
+  },
+  {
+    "name": "Krisha Raichura",
+    "title": "QA Team Member",
+    "bio": "I am Krisha Raichura and I am in grade 11. I like to read and paint and I also play the piano."
+  },
+  {
+    "name": "William",
+    "title": "Social Media Member",
+    "bio": "Hi, My name is William and I am a grade 12 student at BCI. A few hobbies of mine include programming and playing badminton and piano. I joined Homework Hub to support their mission of providing free education to students around the world and it's truly exciting to be part of an organization dedicated to making a positive impact on students' lives."
   }
+  
 ]
