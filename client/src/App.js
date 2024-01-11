@@ -7,6 +7,12 @@ import { Routes, Route } from 'react-router';
 import Homepage from './pages/Homepage';
 
 function App() {
+  const data = {
+    studentCount: 1931,
+    tutorCount: 1090,
+    hoursCount: 11586,
+    totalMembers: 3000,
+  };
 
   // INITIALIZE ANIMATE ON SCROLL LIBRARY
   useEffect(() => {
@@ -18,7 +24,7 @@ function App() {
         <Header />
         
         <Routes>
-          <Route path='/' element={<Homepage />}></Route>
+          <Route path='/' element={<Homepage data={data}/>}></Route>
         </Routes>
       </React.Fragment>
     );
