@@ -1,6 +1,7 @@
 import React from 'react'
 import boyComputerImg from '../assets/img/other/boy_and_computer.webp'
 import Counts from './Counts'
+import Features from './Features'
 
 const About = (props) => {
     return (
@@ -33,6 +34,7 @@ const About = (props) => {
             </div>
 
             <Counts data={props.data}/>
+            <Features />
         </section>
     )
 }

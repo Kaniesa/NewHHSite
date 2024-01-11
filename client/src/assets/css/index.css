@@ -421,7 +421,7 @@ h2#donations {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url('assets/img/hero-bg.webp');
+  background: url('../img/hero-bg.webp');
   position: relative;
   padding: 120px 0 0 0;
 }
@@ -880,7 +880,7 @@ section {
   font-size: 14px;
 }
 .about .video-box {
-  background: url('assets/img/about.webp') center center no-repeat;
+  background: url('../img/about.webp') center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
