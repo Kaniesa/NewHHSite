@@ -1,0 +1,47 @@
+import React from 'react'
+
+const Hero = () => {
+    return (
+        <section id="hero">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+                        <div data-aos="zoom-out">
+                            
+                            <h1>Welcome to <span>HomeworkHub!</span></h1>
+                            <h2>Let's learn and teach together!</h2>
+                            <div className="text-center text-lg-start">
+                                <a href="https://forms.gle/D6hXpn68ztPmQZPH7" className="btn-get-started scrollto m-2">Become a Tutor</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true"
+                                    className="btn-get-started scrollto">Become a Student</a>
+                                <a href="refugee.html" className="btn-get-started scrollto m-2">Refugee Info</a>              
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 order-1 order-lg-2 hero-img mt-3" data-aos="zoom-out" data-aos-delay="300">
+                        <img
+                            src="https://images.unsplash.com/photo-1584697964156-deca98e4439d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+                            className="img-fluid animated rounded" alt="" />
+                    </div>
+                </div>
+            </div>
+            <svg className="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28 " preserveAspectRatio="none">
+                <defs>
+                    <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g className="wave1">
+                    <use xlinkHref="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)" />
+                </g>
+                <g className="wave2">
+                    <use xlinkHref="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)" />
+                </g>
+                <g className="wave3">
+                    <use xlinkHref="#wave-path" x="50" y="9" fill="#fff" />
+                </g>
+            </svg>
+        </section>
+    )
+}
+
+export default Hero
