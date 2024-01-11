@@ -1,20 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Hero = () => {
+const Hero = (props) => {
     return (
         <section id="hero">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
                         <div data-aos="zoom-out">
-                            
-                            <h1>Welcome to <span>HomeworkHub!</span></h1>
+                            <h1>{props.h1} <span>HomeworkHub!</span></h1>
                             <h2>Let's learn and teach together!</h2>
                             <div className="text-center text-lg-start">
-                                <a href="https://forms.gle/D6hXpn68ztPmQZPH7" className="btn-get-started scrollto m-2">Become a Tutor</a>
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true"
-                                    className="btn-get-started scrollto">Become a Student</a>
-                                <a href="refugee.html" className="btn-get-started scrollto m-2">Refugee Info</a>              
+                                <Link to="https://forms.gle/D6hXpn68ztPmQZPH7" className="btn-get-started scrollto m-2">Become a Tutor</Link>
+                                <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true"
+                                    className="btn-get-started scrollto">Become a Student</Link>
+                                <Link to="/refugee" className="btn-get-started scrollto m-2">Refugee Info</Link>              
                             </div>
                         </div>
                     </div>

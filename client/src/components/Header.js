@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/img/logo.png'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -7,55 +8,56 @@ const Header = () => {
             <div className="container d-flex align-items-center justify-content-between">
                 <div className="logo">
                     <div className="together">
-                        <a href="index.html"><img src={logo} alt="logo" className="img-fluid" /></a>
-                        <h1><a href="index.html"><span>HomeworkHub</span></a></h1>
+                        <Link to="/"><img src={logo} alt="logo" className="img-fluid" /></Link>
+                        <h1><Link to="/"><span>HomeworkHub</span></Link></h1>
                     </div>
                 </div>
+                
                 <nav id="navbar" className="navbar">
                     <ul>
-                        <li><a href="/index.html">Home</a></li>
+                        <li><Link to="/">Home</Link></li>
                         <li className="dropdown">
-                            <a href="#function"><span>Students</span> <i className="bi bi-chevron-down"></i></a>
+                            <Link to="#function"><span>Students</span> <i className="bi bi-chevron-down"></i></Link>
                             <ul>
-                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true">Register</a></li>
-                                <li><a href="/university-panel.html">University Info Panels</a></li>
+                                <li><Link to="https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true">Register</Link></li>
+                                <li><Link to="/university-panel">University Info Panels</Link></li>
                             </ul>
                             <ul>
-                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true">Register</a></li>
-                                <li><a href="/refugee.html">Refugee Info</a></li>
+                                <li><Link to="https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true">Register</Link></li>
+                                <li><Link to="/refugee">Refugee Info</Link></li>
                             </ul>
                         </li>
                         <li className="dropdown">
-                            <a href="volunteer.html"><span>Volunteers</span> <i className="bi bi-chevron-down"></i></a>
+                            <Link to="/volunteer"><span>Volunteers</span> <i className="bi bi-chevron-down"></i></Link>
                             <ul>
                                 <li><a
                                     href="https://docs.google.com/forms/d/e/1FAIpQLSecAWrA9XmRFuKeeElm8SS5E09MsU5nLyrujhs0FRg2w1Glnw/viewform">Register</a>
                                 </li>
-                                <li><a href="volunteer.html">Volunteer Information</a></li>
+                                <li><Link to="/volunteer">Volunteer Information</Link></li>
                             </ul>
                         </li>
                         <li className="dropdown">
-                            <a href="#events"><span>Events</span> <i className="bi bi-chevron-down"></i></a>
+                            <Link to="#events"><span>Events</span> <i className="bi bi-chevron-down"></i></Link>
                             <ul>
                                 <li>
-                                    <a href="/university-panel.html">University Info Panels</a>
+                                    <Link to="/university-panel">University Info Panels</Link>
                                 </li>
                                 <li>
-                                    <a href="/python-course.html">Let's Code: Python in 8 Weeks</a>
+                                    <Link to="/python-course">Let's Code: Python in 8 Weeks</Link>
                                 </li>
                             </ul>
                         </li>
                         <li className="dropdown">
-                            <a href="#"><span>Our Community</span> <i className="bi bi-chevron-down"></i></a>
+                            <Link to="#"><span>Our Community</span> <i className="bi bi-chevron-down"></i></Link>
                             <ul>
-                                <li><a href="team.html">Our High School Team</a></li>
-                                <li><a href="board-of-directors.html">Our Board of Directors</a></li>
-                                <li><a href="#donors">Our Partners</a></li>
-                                <li><a href="#news">Our Features</a></li>
+                                <li><Link to="/team">Our High School Team</Link></li>
+                                <li><Link to="/board-of-directors">Our Board of Directors</Link></li>
+                                <li><Link to="#donors">Our Partners</Link></li>
+                                <li><Link to="#news">Our Features</Link></li>
                             </ul>
                         </li>
-                        <li><a href="#real-testimonials">Testimonials</a></li>
-                        <li><a href="#donations">Donate</a></li>
+                        <li><Link to="#real-testimonials">Testimonials</Link></li>
+                        <li><Link to="#donations">Donate</Link></li>
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle"></i>
                 </nav>
