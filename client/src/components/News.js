@@ -77,10 +77,10 @@ const News = () => {
         },
     ]
     return (
-        <section id="news" class="news">
-            <div class="container" id="donors">
-                <div class="section-title ps-5" data-aos="fade-up">
-                    <h2 class="subtitle">Publicity</h2>
+        <section id="news" className="news">
+            <div className="container" id="donors">
+                <div className="section-title ps-5" data-aos="fade-up">
+                    <h2 className="subtitle">Publicity</h2>
                     <p id="news">HomeworkHub on the News ...</p>
                 </div>
 
