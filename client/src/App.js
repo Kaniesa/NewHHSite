@@ -5,8 +5,9 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 import { Routes, Route } from 'react-router';
 import Homepage from './pages/Homepage';
+import { block } from 'million/react'
 
-function App() {
+const App = () => {
   const data = {
     studentCount: 1931,
     tutorCount: 1090,
@@ -28,6 +29,6 @@ function App() {
         </Routes>
       </React.Fragment>
     );
-}
+};
 
 export default App;

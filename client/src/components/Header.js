@@ -1,10 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from '../assets/img/logo.png'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
+    const [styles, setStyles] = useState(null);
+
+    const handleScroll = () => {
+        const newY = window.pageYOffset;
+        newY !== 0 ? setStyles('header-scrolled') : setStyles(null)
+    }
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => handleScroll());
+
+        return () => { 
+            window.removeEventListener("scroll", () => handleScroll());
+        };
+    }, [])
+
+
     return (
-        <header id="header" className="fixed-top d-flex align-items-center header-transparent py-5">
+        <header id="header" className={"fixed-top d-flex align-items-center header-transparent py-5 " + styles}>
             <div className="container d-flex align-items-center justify-content-between">
                 <div className="logo">
                     <div className="together">
