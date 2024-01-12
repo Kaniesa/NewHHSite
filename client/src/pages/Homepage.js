@@ -6,6 +6,7 @@ import Subject from '../components/Subject'
 import Events from '../components/Events'
 import Donate from '../components/Donate'
 import Sponsors from '../components/Sponsors'
+import News from '../components/News'
 
 const Homepage = (props) => {
     return (
@@ -18,6 +19,7 @@ const Homepage = (props) => {
                 <Events />
                 <Donate />
                 <Sponsors />
+                <News />
             </main>
         </>
     )
