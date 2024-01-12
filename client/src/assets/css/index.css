@@ -1254,10 +1254,13 @@ section {
 /*--------------------------------------------------------------
 # Mission
 --------------------------------------------------------------*/
+#testimonials .swiper-button-next,
+#testimonials .swiper-button-prev {
+  color: white;
+}
+
 .testimonials {
   padding: 80px 0;
-  /*  background: url("https://upload.wikimedia.org/wikipedia/commons/f/fb/Light_blue.png") no-repeat;
-*/
   background-position: center center;
   background-color: #2b6777;
   background-size: cover;

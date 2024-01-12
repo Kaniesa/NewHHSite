@@ -5,10 +5,9 @@ import Pricing from '../components/Pricing'
 import Subject from '../components/Subject'
 import Events from '../components/Events'
 import Donate from '../components/Donate'
+import Sponsors from '../components/Sponsors'
 
 const Homepage = (props) => {
-    
-
     return (
         <>
             <Hero h1="Welcome to"/>
@@ -18,6 +17,7 @@ const Homepage = (props) => {
                 <Subject />
                 <Events />
                 <Donate />
+                <Sponsors />
             </main>
         </>
     )
