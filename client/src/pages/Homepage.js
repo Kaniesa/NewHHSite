@@ -4,6 +4,7 @@ import About from '../components/About'
 import Pricing from '../components/Pricing'
 import Subject from '../components/Subject'
 import Events from '../components/Events'
+import Donate from '../components/Donate'
 
 const Homepage = (props) => {
     
@@ -16,6 +17,7 @@ const Homepage = (props) => {
                 <Pricing />
                 <Subject />
                 <Events />
+                <Donate />
             </main>
         </>
     )

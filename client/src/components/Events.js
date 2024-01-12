@@ -162,10 +162,10 @@ const Events = () => {
                     navigation
                     loop
                     pagination={{ clickable: true }}>
-                        {sliderData.map((item) => {
+                        {sliderData.map((item, index) => {
                             return (
                                 <>
-                                    <SwiperSlide key={item.image}>
+                                    <SwiperSlide key={index}>
                                         <Slide {...item} />
                                     </SwiperSlide>
                                 </>
