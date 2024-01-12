@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import About from '../components/About'
 import Pricing from '../components/Pricing'
 import Subject from '../components/Subject'
+import Events from '../components/Events'
 
 const Homepage = (props) => {
     
@@ -14,6 +15,7 @@ const Homepage = (props) => {
                 <About data={props.data}/>
                 <Pricing />
                 <Subject />
+                <Events />
             </main>
         </>
     )

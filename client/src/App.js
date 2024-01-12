@@ -17,7 +17,12 @@ const App = () => {
 
   // INITIALIZE ANIMATE ON SCROLL LIBRARY
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false,
+    });
   }, [])
 
     return (
