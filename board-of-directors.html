@@ -1,497 +1,98 @@
+import React from 'react'
+import Hero from '../components/Hero'
+import BoardOfDirectors from '../components/BoardOfDirectors'
+import Pricing from '../components/Pricing'
+import Subject from '../components/Subject'
+import Events from '../components/Events'
+import Donate from '../components/Donate'
+import Sponsors from '../components/Sponsors'
+import News from '../components/News'
+import Testimonials from '../components/Testimonials'
+import Faq from '../components/Faq'
+
+const BoardPage = () => {
+    return (
+        <>
+            <Hero h1="Welcome to"/>
+            <main id="main">
+                <BoardOfDirectors />
+                <Pricing />
+                <Subject />
+                <Events />
+                <Donate />
+                <Sponsors />
+                <News />
+                <Testimonials />
+                <Faq />
+            </main>
+        </>
+    )
+}
+
+export default Homepage
+
+  <!-- ======= Board Section (../components/BoardOfDirectors) ======= -->
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>HomeworkHub Board of Directors</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link rel="icon" href="assets/img/logo.png">
-  <link href="assets/img/logo.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-</head>
-
 <body>
+      <section id="board" className="team">
+      <div className="container">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center header-transparent py-5">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <div class="logo">
-        <div class="together">
-          <a href="index.html"><img src="assets/img/logo.png" alt="logo" class="img-fluid"></a>
-          <h1><a href="index.html"><span>HomeworkHub</span></a></h1>
-        </div>
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="/index.html">Home</a></li>
-          <!-- <li><a href="#function">Students</a></li> -->
-          <li class="dropdown"><a href="#function"><span>Students</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true">Register</a>
-              </li>
-              <li><a href="/university-panel.html">University Info Panels</a>
-
-            </ul>
-            <ul>
-              <li><a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true">Register</a>
-              </li>
-              <li><a href="/refugee.html">Refugee Info</a>
-
-            </ul>
-          </li>
-          <li class="dropdown"><a href="volunteer.html"><span>Volunteers</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSecAWrA9XmRFuKeeElm8SS5E09MsU5nLyrujhs0FRg2w1Glnw/viewform">Register</a>
-              </li>
-              <li><a href="volunteer.html">Volunteer Information</a>
-              </li>
-          </li>
-        </ul>
-        </li>
-        <li class="dropdown"><a href="index.html#events"><span>Events</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li>
-              <a href="/university-panel.html">University Info Panels</a>
-            </li>
-            <li>
-              <a href="/python-course.html">Let's Code: Python in 8 Weeks</a>
-            </li>
-          </ul>
-        <li class="dropdown"><a href="#"><span>Our Community</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="team.html">Our Team</a></li>
-            <li><a href="board-of-directors.html">Our Board of Directors</a></li>
-            <li><a href="index.html#donors">Our Partners</a></li>
-            <li><a href="index.html#news">Our Features</a></li>
-          </ul>
-        <li><a href="index.html#real-testimonials">Testimonials</a></li>
-        <li><a href="index.html#donations">Donate</a></li>
-
-        <!-- <li><div id="goofgle_translate_element"></div></li -->
-        <!-- <li class="dropdown"><a href="#"><span>Translate</span><i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="index.html">French</a></li>
-            </ul>
-          </li> -->
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-
-    <script type="text/javascript">
-      function googleTranslateElementInit() {
-        new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
-      }
-    </script>
-
-    <script type="text/javascript"
-      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
-          <div data-aos="zoom-out">
-            <h1><span>HomeworkHub</span> Team</h1>
-            <h2>Let's learn and teach together!</h2>
-            <div class="text-center text-lg-start">
-              <a href="https://forms.gle/D6hXpn68ztPmQZPH7" class="m-2 btn-get-started scrollto">Become a Tutor</a>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true"
-                class="btn-get-started scrollto">Become a Student</a>
-              <a href="university-panel.html" class="btn-get-started scrollto m-2">University Panel</a>
-              <a href="refugee.html" class="btn-get-started scrollto m-2">Refugee Info</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 order-1 order-lg-2 hero-img mt-3" data-aos="zoom-out" data-aos-delay="300">
-          <img
-            src="https://images.unsplash.com/photo-1584697964156-deca98e4439d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
-            class="img-fluid animated rounded" alt="">
-        </div>
-      </div>
-    </div>
-
-    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-      viewBox="0 24 150 28 " preserveAspectRatio="none">
-      <defs>
-        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
-      </defs>
-      <g class="wave1">
-        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
-      </g>
-      <g class="wave2">
-        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
-      </g>
-      <g class="wave3">
-        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
-      </g>
-    </svg>
-
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= Board Section ======= -->
-    <section id="board" class="team">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
+        <div className="section-title" data-aos="fade-up">
           <h2>Board of Directors</h2>
           <p>Our Board of Directors</p>
         </div>
 
-        <div class="row" data-aos="fade-left">
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
-            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Neha"><img src="assets/img/team/Neha.png" class="img-fluid" alt="">
+        <div className="row" data-aos="fade-left">
+          <div className="col-lg-3 col-md-6 mt-5 mt-lg-5">
+            <div className="member" data-aos="zoom-in" data-aos-delay="100">
+              <div className="pic" data-bioName="Neha">
+                <img src="assets/img/team/Neha.png" className="img-fluid" alt="" />
               </div>
-              <div class="member-info">
+              <div className="member-info">
                 <h4>Neha Shanavas</h4>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
+                {/* Add social links if needed */}
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
-            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Leah"><img src="assets/img/team/Leah C.jpg" class="img-fluid" alt="">
+          <div className="col-lg-3 col-md-6 mt-5 mt-lg-5">
+            <div className="member" data-aos="zoom-in" data-aos-delay="100">
+              <div className="pic" data-bioName="Leah">
+                <img src="assets/img/team/Leah C.jpg" className="img-fluid" alt="" />
               </div>
-              <div class="member-info">
+              <div className="member-info">
                 <h4>Leah Cai</h4>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
+                {/* Add social links if needed */}
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
-            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Paris"><img src="assets/img/team/paris.jpg" class="img-fluid" alt="">
+          <div className="col-lg-3 col-md-6 mt-5 mt-lg-5">
+            <div className="member" data-aos="zoom-in" data-aos-delay="100">
+              <div className="pic" data-bioName="Paris">
+                <img src="assets/img/team/paris.jpg" className="img-fluid" alt="" />
               </div>
-              <div class="member-info">
+              <div className="member-info">
                 <h4>Paris Cai</h4>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
+                {/* Add social links if needed */}
               </div>
             </div>
           </div>
-          
-          <p>Contact info@homeworkhubtutoring.ca to apply to be a board director</p>
 
+          {/* Contact information */}
+          <div className="col-12 mt-5">
+            <p>Contact <a href="mailto:info@homeworkhubtutoring.ca">info@homeworkhubtutoring.ca</a> to apply to be a board director</p>
+          </div>
         </div>
 
       </div>
-    </section><!-- End of Board Section -->
-
-
-
-    <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq section-bg">
-      <div class="container px-4">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>F.A.Q</h2>
-          <p>Frequently Asked Questions</p>
-        </div>
-
-        <div class="faq-list">
-          <ul>
-            <li data-aos="fade-up">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
-                data-bs-target="#faq-list-1">Can I sign up for more than one subject?<i
-                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  Absolutely! You can sign up for a total of 3 subjects at a time, although tutor
-                  availability may vary from subject to subject.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2"
-                class="collapsed">My 8 weeks are up. Can I sign up again?<i class="bx bx-chevron-down icon-show"></i><i
-                  class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Yes! You can sign up as many times as you want! Again, availability may vary.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
-                class="collapsed">My Tutor/Student is unresponsive, what do I
-                do?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Please email us! We'll get in touch with the person and sort it out. If they are still
-                  unresponsive, we'll assign you to someone new!
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4"
-                class="collapsed">I finished my sessions! What do I do now?<i
-                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Congratulations! Log in your hours and we'll contact you when we have someone new for
-                  you!
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5"
-                class="collapsed">I signed up for HomeworkHub but no one has
-                been in touch?<i class="bx bx-chevron-down icon-show"></i><i
-                  class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Please check your spam inbox! Our emails sometimes wind up in there.
-                  If you still haven’t heard from us, that may be because we don’t have anyone available for you at the
-                  moment.
-                  If you are in urgent need for a tutor, please send us an email and we will do our best to pair you
-                  ASAP.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="500">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-6"
-                class="collapsed">I’m an adult looking to volunteer, can I register?
-                <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Thank you for your interest in volunteering!
-                  If you are in University, then you absolutely can so long as you provide a valid vulnerable sector
-                  police check.
-                  If you are an adult out of school, a check must still be provided and you will most likely be paired
-                  with an adult student.
-                </p>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-      </div>
-    </section><!-- End F.A.Q Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container px-4">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
-        </div>
-
-
-        <div class="row">
-
-          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Ontario, Canada</p>
-              </div>
-
-              <div class="email">
-                <a href="mailto:info@homeworkhubtutoring.ca"><i class="bi bi-envelope"></i></a>
-                <h4>Email:</h4>
-                <a href="mailto:info@homeworkhubtutoring.ca">
-                  <p>info@homeworkhubtutoring.ca</p>
-                </a>
-              </div>
-
-              <div class="phone">
-                <a href="tel:+19176603871"><i class="bi bi-phone"></i></a>
-                <h4>Call:</h4>
-                <p>+1 917 660 3871</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <!-- <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>-->
     </section>
-    <!-- End Contact Section -->
-
-  </main><!-- End #main -->
-  <div id="google_translate_element"></div>
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-6 col-md-6 me-5">
-            <div class="footer-info rounded-pill">
-              <h3>HomeworkHub</h3>
-              <p class="pb-3"><em>Let's learn and teach together!</em></p>
-              <p>
-                Ontario, Canada
-                <br>
-                <strong>Phone:</strong> +1 917 660 3871<br>
-                <strong>Email:</strong> <a href="mailto:info@homeworkhubtutoring.ca">info@homeworkhubtutoring.ca</a><br>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links:</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#about">About Us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#pricing">Courses</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#pricing">Contact</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="code-of-conduct.html">Student & Tutor Code of Conduct</a>
-              </li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="">Privacy policy</a></li> -->
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Register and/or Donate:</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a
-                  href=https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true">Student
-                  Registration</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSecAWrA9XmRFuKeeElm8SS5E09MsU5nLyrujhs0FRg2w1Glnw/viewform">Tutor
-                  Registration</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a
-                  href="https://www.paypal.com/donate?business=DRPWCU5CZ3J5J&amp;currency_code=CAD">Make a Donation</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col footer-newsletter">
-            <h4>Social Networks:</h4>
-            <ul>
-              <li><i class="bx bxl-instagram"></i> <a href="https://www.instagram.com/hh.tutoring/">Instagram</a></li>
-              <li><i class="bx bxl-facebook"></i> <a href="#">Facebook</a></li>
-            </ul>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>HomeworkHub</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> and Developed by <a
-          href="mailto:mariyatur27@gmail.com">Mariya Turetska</a> and <a
-          href="https://www.linkedin.com/in/andytubeee">Andrew Yang</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-  <div id="preloader"></div>
-
-  <script type="text/javascript" src="./assets/js/translate.js"></script>
-
-  <script type="text/javascript"
-    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        
+    <!-- End of Board Section -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
