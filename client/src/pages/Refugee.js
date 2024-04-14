@@ -1,13 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
 // import About from '../components/About'
-import Pricing from '../components/Pricing'
-import Subject from '../components/Subject'
-import Events from '../components/Events'
-import Donate from '../components/Donate'
-import Sponsors from '../components/Sponsors'
-import News from '../components/News'
-import Testimonials from '../components/Testimonials'
 import Faq from '../components/Faq'
 
 import img1 from '../assets/img/other/ukraine_refugee.webp'
