@@ -13,7 +13,16 @@ import Faq from '../components/Faq'
 const Homepage = (props) => {
     return (
         <>
-            <Hero h1="Welcome to"/>
+            <Hero 
+                h1={{"text": "Welcome to", underlined: "HomeworkHub!", reversed: false}} 
+                h2="Let's learn and teach together!"
+                buttons={[
+                    {"text": "Become a Tutor", "link": "https://forms.gle/D6hXpn68ztPmQZPH7"},
+                    {"text": "Become a Student", "link": "https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true"},
+                    {"text": "Refugee Info", "link": "/refugee"}
+                ]}
+            />
+            
             <main id="main">
                 <About data={props.data}/>
                 <Pricing />
