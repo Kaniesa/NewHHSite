@@ -9,13 +9,16 @@ const Hero = (props) => {
                 <div className="row justify-content-center">
                     <div className="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
                         <div data-aos="zoom-out">
-                            <h1>{props.h1} <span>HomeworkHub!</span></h1>
-                            <h2>Let's learn and teach together!</h2>
+                            {props.h1.reversed ? (
+                                <h1><span>{props.h1.underlined}</span> {props.h1.text}</h1>
+                            ) : (
+                                <h1>{props.h1.text} <span>{props.h1.underlined}</span></h1>
+                            )}
+                            <h2>{props.h2}</h2>
                             <div className="text-center text-lg-start">
-                                <Link to="https://forms.gle/D6hXpn68ztPmQZPH7" className="btn-get-started scrollto m-2">Become a Tutor</Link>
-                                <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true"
-                                    className="btn-get-started scrollto">Become a Student</Link>
-                                <Link to="/refugee" className="btn-get-started scrollto m-2">Refugee Info</Link>              
+                                {props.buttons.map(function(button, i) {
+                                    return <Link to={button.link} className="btn-get-started scrollto m-2">{button.text}</Link>
+                                })}
                             </div>
                         </div>
                     </div>
