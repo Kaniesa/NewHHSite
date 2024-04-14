@@ -5,6 +5,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 import { Routes, Route } from 'react-router';
 import Homepage from './pages/Homepage';
+import Refugee from './pages/Refugee'
 import { block } from 'million/react'
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
         
         <Routes>
           <Route path='/' element={<Homepage data={data}/>}></Route>
+          <Route path='/refugee' element={<Refugee/>}></Route>
         </Routes>
       </React.Fragment>
     );
