@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import girl from '../assets/img/homepage/girl-studying-in-library.avif'
 
 const Hero = (props) => {
     return (
@@ -24,7 +23,7 @@ const Hero = (props) => {
                     </div>
                     <div className="col-lg-4 order-1 order-lg-2 hero-img mt-3" data-aos="zoom-out" data-aos-delay="300">
                         <img
-                            src={girl}
+                            src={props.img}
                             className="img-fluid animated rounded" alt="" />
                     </div>
                 </div>

@@ -10,6 +10,8 @@ import News from '../components/News'
 import Testimonials from '../components/Testimonials'
 import Faq from '../components/Faq'
 
+import girl from '../assets/img/homepage/girl-studying-in-library.avif'
+
 const Homepage = (props) => {
     return (
         <>
@@ -21,6 +23,7 @@ const Homepage = (props) => {
                     {"text": "Become a Student", "link": "https://docs.google.com/forms/d/e/1FAIpQLSeCJdNKBQHUi_8bKE3GW6stMa2GuQe3DyfDc2KEGRVBNjufFg/viewform?embedded=true"},
                     {"text": "Refugee Info", "link": "/refugee"}
                 ]}
+                img={girl}
             />
             
             <main id="main">
