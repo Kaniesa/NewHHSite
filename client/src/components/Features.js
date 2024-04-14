@@ -51,8 +51,8 @@ const Features = () => {
                             <i className="ri-paint-brush-line" style={{"color": "#e361ff"}}></i>
                             <div className="seperate">
                                 <h3>100% Safe and Virtual Services</h3>
-                                <p className="mt-2">All of our sessions will be held online over Google Meet to ensure our tutors and student's
-                                    safeties during this pandemic. That way, your student can stay safe while learning!
+                                <p className="mt-2"> All of our sessions are held online over virtual meeting platforms to ensure our tutors and 
+                                    students can stay safe while learning!
                                 </p>
                             </div>
                         </div>

@@ -32,8 +32,8 @@ const Events = () => {
             image: HoHoHomeworkhub, 
             width: 400, 
             alt: "HoHoHomeworkHub Insta Post", 
-            p: "This Holiday Season, Homeworkhub is supporting local charities to provide students in KW with backpacks, school supplies, and educational gifts. We're inviting you to our packing party: come together with the community and help package and distribute the gifts to the needy! Meals will be provided, as well as volunteer hours, more details on registration form below!", 
-            link: "https://docs.google.com/forms/d/e/1FAIpQLScndCKOgEMR4rnSIMdrXVUNnoVBWnbw6-8jK1WKZrS8euhKyg/viewform",
+            p: "This Holiday Season, Homeworkhub is supporting local charities to provide students in KW with backpacks, school supplies, and educational gifts. We're inviting you to our packing party: come together with the community and help package and distribute the gifts to the needy! Meals will be provided, as well as volunteer hours!", 
+            
         },
         {
             id: "intro", 
@@ -50,7 +50,7 @@ const Events = () => {
             width: 300, 
             alt: "Let's Code Poster", 
             p: `HomeworkHub is happy to introduce Let's Code: Python in 8 Weeks, an engaging and interactive summer coding course taught by UW Computer Science students designed to introduce students in grades 4 to 8 to the fundamentals of Python programming. With the increasing importance of technology in our lives, learning to code has become a valuable skill for students of all ages. More details under Events dropdown on menu!`,
-            link: "https://docs.google.com/forms/d/e/1FAIpQLSftP-5hTcQqV_VyGbMqHMkGRgp4I5zYhYxlVD69fVt-mMHhUQ/viewform",
+            
         },
         {
             id: "intro", 
