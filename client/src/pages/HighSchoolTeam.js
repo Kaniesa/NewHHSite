@@ -2,23 +2,45 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Faq from '../components/Faq'
 
-import Paris from '../assets/img/team/Paris.webp'
+import Anne from '../assets/img/team/anne.webp'
+import Grace from '../assets/img/team/Grace Qiu.webp'
+import Gurman from '../assets/img/team/Gurman.webp'
+import Kaniesa from '../assets/img/team/Kaniesa.webp'
+import Jimmy from '../assets/img/team/Jimmy.webp'
+import Cici from '../assets/img/team/Cici.webp'
+import Priyanshi from '../assets/img/team/Priyanshi.webp'
+import Naayeli from '../assets/img/team/Naayeli.webp'
+import Maggie from '../assets/img/team/Mag.webp'
+import Leah from '../assets/img/team/Leah C.webp'
+import Fiona from '../assets/img/team/Fiona.webp'
+import Hyewon from '../assets/img/team/Hyewon Image.webp'
+import Marwa from '../assets/img/team/Marwa Image.webp'
+import Chloe from '../assets/img/team/Chloe Image.webp'
+import Nihitha from '../assets/img/team/Nihitha image.webp'
+import Cindy from '../assets/img/team/Cindy Image.webp'
+import Morgan from '../assets/img/team/Morgan.webp'
+import Erin from '../assets/img/team/Erin.webp'
+import Zaynah from '../assets/img/team/Zaynah.webp'
+import Ayushi from '../assets/img/team/Ayushi Pandit.webp'
+import Camille from '../assets/img/team/Camille Bernardo.webp'
+import Lucy from '../assets/img/team/Lucy Chen.webp'
+import Krisha from '../assets/img/team/Krisha Raichura.webp'
+import William from '../assets/img/team/WilliamLiang.webp'
+import girl from '../assets/img/homepage/girl-studying-in-library.avif'
 
-
-    <!-- ======= Team Section ======= -->
+const HighSchoolTeam = () => {
+  return(
     <section id="team" class="team">
       <div class="container">
-
         <div class="section-title" data-aos="fade-up">
           <h2>Team</h2>
           <p>Our High School Team</p>
         </div>
 
         <div class="row" data-aos="fade-left">
-
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Anne"><img src="assets/img/team/anne.jpg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Anne"><img src={Anne} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Anne Zhang</h4>
@@ -33,7 +55,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic" data-bioName="Grace"><img src="assets/img/team/Grace Qiu.jpg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Grace"><img src={Grace} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Grace Qiu</h4>
@@ -48,7 +70,7 @@ import Paris from '../assets/img/team/Paris.webp'
           
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Gurman"><img src="assets/img/team/Gurman.jpg" width="6000" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Gurman"><img src={Gurman} width="6000" class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Gurman Sahota</h4>
@@ -63,7 +85,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Kaniesa"><img src="assets/img/team/Kaniesa.png" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Kaniesa"><img src={Kaniesa} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Kaniesa Deswal</h4>
@@ -78,7 +100,7 @@ import Paris from '../assets/img/team/Paris.webp'
     
          <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Jimmy"><img src="assets/img/team/Jimmy.jpeg" class="img-fluid tmpSize" alt=""></div>
+              <div class="pic" data-bioName="Jimmy"><img src={Jimmy} class="img-fluid tmpSize" alt=""></div>
               <div class="member-info">
                 <h4>Jimmy Tao</h4>
                 <span>Students and Pairing Director</span>
@@ -92,7 +114,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Cici"><img src="assets/img/team/Cici.png" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Cici"><img src={Cici} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Cici Zhu</h4>
@@ -107,7 +129,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Priyanshi"><img src="assets/img/team/Priyanshi.jpg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Priyanshi"><img src={Priyanshi} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Priyanshi Dokania</h4>
@@ -123,7 +145,7 @@ import Paris from '../assets/img/team/Paris.webp'
           <!--Non-Department Head Members-->
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Maggie"><img src="assets/img/team/Naayeli.png" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Naayeli"><img src={Naayeli} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Naayeli Prakash</h4>
@@ -138,7 +160,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Maggie"><img src="assets/img/team/Mag.JPG" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Maggie"><img src={Maggie} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Maggie Hu</h4>
@@ -153,7 +175,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="LeahChin"><img src="assets/img/team/Leah C.jpg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="LeahChin"><img src={Leah} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Leah Chin</h4>
@@ -168,7 +190,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="FionaJ"><img src="assets/img/team/Fiona.jpeg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="FionaJ"><img src={Fiona} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Fiona Jiang</h4>
@@ -183,7 +205,7 @@ import Paris from '../assets/img/team/Paris.webp'
           
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Hyewon"><img src="assets/img/team/Hyewon Image.jpg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Hyewon"><img src={Hyewon} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Hyewon Lee</h4>
@@ -198,7 +220,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Marwa"><img src="assets/img/team/Marwa Image.jpg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Marwa"><img src={Marwa} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Marwa Kabir</h4>
@@ -213,7 +235,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Chloe"><img src="assets/img/team/Chloe Image.JPG" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Chloe"><img src={Chloe} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Chloe Cho</h4>
@@ -228,7 +250,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Chloe"><img src="assets/img/team/Nihitha image.JPG" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Nihitha"><img src={Nihitha} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Nihitha Sriram</h4>
@@ -243,7 +265,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Cindy"><img src="assets/img/team/Cindy Image.jpg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Cindy"><img src={Cindy} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Cindy Li</h4>
@@ -258,7 +280,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Morgan"><img src="assets/img/team/Morgan.jpg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Morgan"><img src={Morgan} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Morgan Pankarican</h4>
@@ -273,7 +295,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Erin"><img src="assets/img/team/Erin.png" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Erin"><img src={Erin} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Erin Yang</h4>
@@ -288,7 +310,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Zaynah"><img src="assets/img/team/Zaynah.png" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Zaynah"><img src={Zaynah} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Zaynah Kashif</h4>
@@ -303,7 +325,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Ayushi"><img src="assets/img/team/Ayushi Pandit.jpg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Ayushi"><img src={Ayushi} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Ayushi Pandit</h4>
@@ -318,7 +340,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Camille"><img src="assets/img/team/Camille Bernardo.jpg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Camille"><img src={Camille}" class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Camille Bernardo</h4>
@@ -333,7 +355,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Lucy"><img src="assets/img/team/Lucy Chen.jpg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Lucy"><img src={Lucy} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Lucy Chen</h4>
@@ -348,7 +370,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Krisha Raichura"><img src="assets/img/team/Krisha Raichura.jpg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Krisha Raichura"><img src={Krisha} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>Krisha Raichura</h4>
@@ -363,7 +385,7 @@ import Paris from '../assets/img/team/Paris.webp'
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="William"><img src="assets/img/team/WilliamLiang.jpg" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="William"><img src={William} class="img-fluid tmpSize" alt="">
               </div>
               <div class="member-info">
                 <h4>William Liang</h4>
@@ -375,11 +397,20 @@ import Paris from '../assets/img/team/Paris.webp'
               </div>
             </div>
           </div>
-
-          
-          
-
         </div>
-
+        <Faq/>
       </div>
     </section><!-- End Team Section -->
+    )
+}
+
+return (
+        <>
+            <Hero 
+                h1={{text: "Volunteer at", underlined: "HomeworkHub!", reversed: false}} 
+                h2="Let's learn and teach together!"
+                img={girl}
+            />
+)
+
+export default HighSchoolTeam
