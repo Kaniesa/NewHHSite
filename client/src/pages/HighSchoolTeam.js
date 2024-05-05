@@ -40,7 +40,7 @@ const HighSchoolTeam = () => {
         <div class="row" data-aos="fade-left">
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Anne"><img src={Anne} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Anne"><img src={Anne} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Anne Zhang</h4>
@@ -55,7 +55,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic" data-bioName="Grace"><img src={Grace} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Grace"><img src={Grace} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Grace Qiu</h4>
@@ -70,7 +70,7 @@ const HighSchoolTeam = () => {
           
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Gurman"><img src={Gurman} width="6000" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Gurman"><img src={Gurman} width="6000" class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Gurman Sahota</h4>
@@ -85,7 +85,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Kaniesa"><img src={Kaniesa} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Kaniesa"><img src={Kaniesa} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Kaniesa Deswal</h4>
@@ -100,7 +100,8 @@ const HighSchoolTeam = () => {
     
          <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Jimmy"><img src={Jimmy} class="img-fluid tmpSize" alt=""></div>
+              <div class="pic" data-bioName="Jimmy"><img src={Jimmy} class="img-fluid tmpSize" alt=""/>
+              </div>
               <div class="member-info">
                 <h4>Jimmy Tao</h4>
                 <span>Students and Pairing Director</span>
@@ -114,7 +115,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Cici"><img src={Cici} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Cici"><img src={Cici} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Cici Zhu</h4>
@@ -129,7 +130,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Priyanshi"><img src={Priyanshi} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Priyanshi"><img src={Priyanshi} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Priyanshi Dokania</h4>
@@ -145,7 +146,7 @@ const HighSchoolTeam = () => {
           <!--Non-Department Head Members-->
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Naayeli"><img src={Naayeli} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Naayeli"><img src={Naayeli} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Naayeli Prakash</h4>
@@ -160,7 +161,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Maggie"><img src={Maggie} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Maggie"><img src={Maggie} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Maggie Hu</h4>
@@ -175,7 +176,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="LeahChin"><img src={Leah} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="LeahChin"><img src={Leah} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Leah Chin</h4>
@@ -190,7 +191,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="FionaJ"><img src={Fiona} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="FionaJ"><img src={Fiona} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Fiona Jiang</h4>
@@ -205,7 +206,7 @@ const HighSchoolTeam = () => {
           
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Hyewon"><img src={Hyewon} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Hyewon"><img src={Hyewon} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Hyewon Lee</h4>
@@ -220,7 +221,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Marwa"><img src={Marwa} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Marwa"><img src={Marwa} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Marwa Kabir</h4>
@@ -235,7 +236,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Chloe"><img src={Chloe} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Chloe"><img src={Chloe} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Chloe Cho</h4>
@@ -250,7 +251,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Nihitha"><img src={Nihitha} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Nihitha"><img src={Nihitha} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Nihitha Sriram</h4>
@@ -265,7 +266,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Cindy"><img src={Cindy} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Cindy"><img src={Cindy} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Cindy Li</h4>
@@ -280,7 +281,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Morgan"><img src={Morgan} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Morgan"><img src={Morgan} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Morgan Pankarican</h4>
@@ -295,7 +296,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Erin"><img src={Erin} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Erin"><img src={Erin} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Erin Yang</h4>
@@ -310,7 +311,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Zaynah"><img src={Zaynah} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Zaynah"><img src={Zaynah} class="img-fluid tmpSize" alt="">/
               </div>
               <div class="member-info">
                 <h4>Zaynah Kashif</h4>
@@ -325,7 +326,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Ayushi"><img src={Ayushi} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Ayushi"><img src={Ayushi} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Ayushi Pandit</h4>
@@ -340,7 +341,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Camille"><img src={Camille}" class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Camille"><img src={Camille}" class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Camille Bernardo</h4>
@@ -355,7 +356,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Lucy"><img src={Lucy} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Lucy"><img src={Lucy} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Lucy Chen</h4>
@@ -370,7 +371,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Krisha Raichura"><img src={Krisha} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="Krisha Raichura"><img src={Krisha} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Krisha Raichura</h4>
@@ -385,7 +386,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="William"><img src={William} class="img-fluid tmpSize" alt="">
+              <div class="pic" data-bioName="William"><img src={William} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>William Liang</h4>

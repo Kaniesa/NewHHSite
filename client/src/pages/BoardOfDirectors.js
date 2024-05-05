@@ -20,7 +20,7 @@ const BoardOfDirectors = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Paris"><img src={Paris} class="img-fluid tmpSize" alt="Paris Cai">
+              <div class="pic" data-bioName="Paris"><img src={Paris} class="img-fluid tmpSize" alt="Paris Cai"/>
               </div>
               <div class="member-info">
                 <h4>Paris Cai</h4>
@@ -31,7 +31,7 @@ const BoardOfDirectors = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Neha"><img src={Neha} class="img-fluid tmpSize" alt="Neha Shanavas">
+              <div class="pic" data-bioName="Neha"><img src={Neha} class="img-fluid tmpSize" alt="Neha Shanavas"/>
               </div>
               <div class="member-info">
                 <h4>Neha Shanavas</h4>
@@ -42,7 +42,7 @@ const BoardOfDirectors = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic" data-bioName="Leah"><img src={Leah} class="img-fluid tmpSize" alt="Leah Cai">
+              <div class="pic" data-bioName="Leah"><img src={Leah} class="img-fluid tmpSize" alt="Leah Cai"/>
               </div>
               <div class="member-info">
                 <h4>Leah Cai</h4>
