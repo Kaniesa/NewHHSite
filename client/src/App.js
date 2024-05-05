@@ -7,6 +7,8 @@ import { Routes, Route } from 'react-router';
 import Homepage from './pages/Homepage';
 import Refugee from './pages/Refugee'
 import Volunteer from './pages/Volunteer'
+import BoardOfDirectors from './pages/BoardOfDirectors'
+import HighSchoolTeam from './pages/HighSchoolTeam'
 import { block } from 'million/react'
 
 const App = () => {
@@ -35,6 +37,9 @@ const App = () => {
           <Route path='/' element={<Homepage data={data}/>}></Route>
           <Route path='/refugee' element={<Refugee/>}></Route>
           <Route path='/volunteer' element={<Volunteer/>}></Route>
+          <Route path='/boardofdirectors' element={<BoardOfDirectors/>}></Route>
+          <Route path='/highschoolteam' element={<HighSchoolTeam/>}></Route>
+
         </Routes>
       </React.Fragment>
     );
