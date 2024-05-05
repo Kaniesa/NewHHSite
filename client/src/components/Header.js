@@ -59,7 +59,7 @@ const Header = () => {
                                     <Link to="/university-panel">University Info Panels</Link>
                                 </li>
                                 <li>
-                                    <Link to="/python-course">Let's Code: Python in 8 Weeks</Link>
+                                    <Link to="/LetsCodePython">Let's Code: Python in 8 Weeks</Link>
                                 </li>
                             </ul>
                         </li>
