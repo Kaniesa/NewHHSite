@@ -52,7 +52,7 @@ const BoardOfDirectors = () => {
           </div>
           
           <p> </p>
-          <P> </P>
+          <p> </p>
           <p><i>Contact info@homeworkhubtutoring.ca to apply to be a board director</i></p>
           <Faq/>
         </div>
