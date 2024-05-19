@@ -72,7 +72,7 @@ const Footer = (props) => {
                     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
                     Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> and Developed by <a
                       href="mailto:mariyatur27@gmail.com">Mariya Turetska</a> and <a
-                      href="https://www.linkedin.com/in/andytubeee">Andrew Yang</a>
+                      href="https://www.linkedin.com/in/andrewatyang/">Andrew Yang</a>
                   </div>
                 </div>
         </section>
