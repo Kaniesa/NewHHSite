@@ -304,7 +304,6 @@ const HighSchoolTeam = () => {
         </div>
         <Faq/>
       </div>
-    </section><!-- End Team Section -->
     )
 }
 
