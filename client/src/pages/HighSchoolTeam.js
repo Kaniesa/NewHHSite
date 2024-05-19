@@ -73,7 +73,7 @@ const HighSchoolTeam = () => {
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic"<img src={Kaniesa} class="img-fluid tmpSize" alt=""/>
+              <div class="pic"><img src={Kaniesa} class="img-fluid tmpSize" alt=""/>
               </div>
               <div class="member-info">
                 <h4>Kaniesa Deswal</h4>
