@@ -45,10 +45,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Anne Zhang</h4>
                 <span>President</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -60,10 +56,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Grace Qiu</h4>
                 <span>Vice President</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -75,10 +67,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Gurman Sahota</h4>
                 <span>Vice President</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -90,10 +78,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Kaniesa Deswal</h4>
                 <span>Tech Team Director</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -105,10 +89,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Jimmy Tao</h4>
                 <span>Students and Pairing Director</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>    
@@ -120,10 +100,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Cici Zhu</h4>
                 <span>Volunteers Team Director</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -135,15 +111,10 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Priyanshi Dokania</h4>
                 <span>QA Director</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
 
-          <!--Non-Department Head Members-->
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
               <div class="pic"><img src={Naayeli} class="img-fluid tmpSize" alt=""/>
@@ -151,10 +122,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Naayeli Prakash</h4>
                 <span>Tech Team Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -166,10 +133,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Maggie Hu</h4>
                 <span>Pairing Team Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -181,10 +144,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Leah Chin</h4>
                 <span>Pairing Team Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -196,10 +155,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Fiona Jiang</h4>
                 <span>Pairing Team Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -211,10 +166,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Hyewon Lee</h4>
                 <span>Media & Marketing Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -226,10 +177,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Marwa Kabir</h4>
                 <span>Media & Marketing Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -241,10 +188,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Chloe Cho</h4>
                 <span>Media & Marketing Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -256,10 +199,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Nihitha Sriram</h4>
                 <span>Media & Marketing Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -271,10 +210,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Cindy Li</h4>
                 <span>Media & Marketing Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -286,10 +221,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Morgan Pankarican</h4>
                 <span>Media & Marketing Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -301,10 +232,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Erin Yang</h4>
                 <span>Volunteers Team Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -316,10 +243,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Zaynah Kashif</h4>
                 <span>Volunteers Team Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -331,10 +254,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Ayushi Pandit</h4>
                 <span>QA Team Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -346,10 +265,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Camille Bernardo</h4>
                 <span>QA Team Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -361,10 +276,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Lucy Chen</h4>
                 <span>QA Team Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -376,10 +287,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>Krisha Raichura</h4>
                 <span>QA Team Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -391,10 +298,6 @@ const HighSchoolTeam = () => {
               <div class="member-info">
                 <h4>William Liang</h4>
                 <span>Social Media Member</span>
-                <!--  <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
               </div>
             </div>
           </div>
