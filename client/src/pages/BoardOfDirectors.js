@@ -9,6 +9,7 @@ import girl from '../assets/img/homepage/girl-studying-in-library.avif'
 
 const BoardOfDirectors = () => {
   return(
+    <>
     <section id="board" class="team">
       <div class="container">
         <div class="section-title" data-aos="fade-up">
@@ -57,6 +58,7 @@ const BoardOfDirectors = () => {
           <Faq/>
         </div>
       </section>
+    </>
     )
 }
 
