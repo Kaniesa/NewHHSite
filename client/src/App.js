@@ -37,8 +37,8 @@ const App = () => {
           <Route path='/' element={<Homepage data={data}/>}></Route>
           <Route path='/refugee' element={<Refugee/>}></Route>
           <Route path='/volunteer' element={<Volunteer/>}></Route>
-          <Route path='/boardofdirectors' element={<BoardOfDirectors/>}></Route>
-          <Route path='/highschoolteam' element={<HighSchoolTeam/>}></Route>
+          <Route path='/board-of-directors' element={<BoardOfDirectors/>}></Route>
+          <Route path='/team' element={<HighSchoolTeam/>}></Route>
 
         </Routes>
       </React.Fragment>

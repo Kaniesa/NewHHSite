@@ -13,6 +13,7 @@ const BoardOfDirectors = () => {
       <Hero 
           h1={{text: "Volunteer at", underlined: "HomeworkHub!", reversed: false}} 
           h2="Let's learn and teach together!"
+          buttons={[]}
           img={girl}
       />
 
