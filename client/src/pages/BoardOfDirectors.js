@@ -68,7 +68,7 @@ return (
                 h1={{text: "Volunteer at", underlined: "HomeworkHub!", reversed: false}} 
                 h2="Let's learn and teach together!"
                 img={girl}
-            />
+            </>
 )
 
 export default BoardOfDirectors
