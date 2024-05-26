@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Faq from '../components/Faq'
 
 import Paris from '../assets/img/team/Paris.webp'
+import Leah from '../assets/img/team/Leah.webp'
 import Leah from '../assets/img/team/leah.webp'
 import Neha from '../assets/img/team/Neha.webp'
 import girl from '../assets/img/homepage/girl-studying-in-library.avif'
